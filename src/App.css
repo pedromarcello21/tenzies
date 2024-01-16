@@ -1,0 +1,84 @@
+#root {
+  max-width: 80%;
+  height:750px;
+  max-height:1500px;
+  margin: 50px auto;
+  padding: 2rem;
+  text-align: center;
+  background-color:#0B2434;
+  border-radius: 10px;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.card{
+  background-color: whitesmoke;
+  height:450px;
+  border-radius: 5px;
+  max-width: 700px; 
+  padding: 50px;
+  margin: 0 auto; 
+  margin-top: 105px;
+  display: flex; /* Use flex container */
+  flex-direction: column; /* Column layout */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+
+}
+
+
+.container {
+  padding-top:20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px; /* Adjust the gap between items as needed */
+  gap:20px;
+}
+
+.selected--die,.floor--die {
+  border: 1px solid #000; /* Set the border style as desired */
+  text-align: center; /* Center the text inside the dice */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width:60px;
+  height:60px;
+}
+
+.rollButton, .resetButton{
+  width:auto;
+  height:50px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  padding:10px 30px;
+  margin-top:35px;
+  background-color: #5035FF;
+  color:white;
+}
+
+.selected--die{
+  background-color: #59E391;
+  color: black;
+}
+.selected--die, .floor--die{
+  padding:15px;
+  font-size: 1.75em;
+}
+
+h1{
+  margin-top: 0px;
+  font-size: 3em;
+  font-family: 'Ubuntu', sans-serif;
+  color:#2B283A;
+}
+h2{
+  margin-top:-10px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #4A4E74;
+
+}
